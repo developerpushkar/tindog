@@ -1,0 +1,168 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-weight: bold;
+    size: 3.5rem;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    size: 3rem;
+    font-weight: bolder;
+    color: #000;
+    /* width: 80%; */
+   
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    font-family: 'Montserrat-Light'
+    font-weight: lighter;
+    font-size: 1.2rem;
+    padding: 0 18px;
+}
+
+/* title donlaod button */
+.dbtn{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.titleImage{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+   right: 30%;
+    
+}
+
+/* featuress */
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    /* z-index: 1; */
+}
+
+h3{
+    font-family: 'Montserrat-bold','Ubuntu',sans-serif;
+    font-weight:700;
+    font-weight: bolder;
+}
+p{
+    color: #8f8f8f;
+}
+
+/* testimonials section */
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;   
+}
+.carousel-inner{
+    padding: 7% 15%;
+}
+.testimonialspic{
+    width: 15%;
+    border-radius: 100%;
+    margin: 3%;
+    margin-top: 5%;
+}
+
+/* press */
+#press{
+    background-color: #ff4c68;
+    padding: 5%;
+}
+.presslogo{
+   margin: 10px 30px;
+   width: 15%;
+}
+
+/* pricing */
+#pricing{
+    margin: 7% 7%;
+}
+.pricin{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    color: #000;
+}
+
+.btn{
+    background-color: #ff4c68;
+}
+
+.btnm:hover{
+    background-color: #000;
+}
+
+/* media query for mobile */
+@media (max-width:1000px){
+    #title{
+        text-align: center;
+    }
+    .titleImage{
+        position: static;
+        transform: rotate();
+    }
+}
+
+/* call to action sectiom */
+#cta{
+    background-color: #ff4c68;
+    padding: 5% 10% 3%;
+    text-align: center;
+}
+
+#ctab{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: larger;
+    font: 2em sans-serif;
+    font-weight: bolder;
+    text-align: center;
+ 
+}
+
+/* footer section */
+#footer{
+    margin: 1% 10%;
+}
+.fooma{
+    margin: 10px 20px ;
+    background-color: #fff;
+    color: #000;
+    text-decoration-color: #000;
+}
+/* fonts detail 
+
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
